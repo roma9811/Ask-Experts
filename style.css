@@ -134,8 +134,8 @@ input[type="text"]{
     display: flex;
     justify-content:space-between;
     margin-top: 55px;
-    border-bottom: 1px solid #F6F6F6;
-    border-top: 1px solid #F6F6F6;
+    border-bottom: 1px solid #C9C9C9;
+    border-top: 1px solid #C9C9C9;
     padding:15px;
 }
 .box1{
@@ -212,7 +212,19 @@ background-color: #F5F5F5;
    background-color: #EBEBEB;
    width: 387px;
    border-radius: 20px;
+   padding-top: 40px;
 }
+.grd h1,p{
+    text-align: center;
+}
+.grd img{
+    padding-left: 47px;
+}
+.example{
+    color: #EBEBEB;
+    background-color: #181818;
+}
+
 .main2{
     height: 900px;
 }
@@ -238,4 +250,55 @@ background-color: #F5F5F5;
     background-color: #FFCC4A;
     font-weight: bold;
 }
+.process_growing h1{
+    margin-top: 16px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.process p{
+    text-align: left;
+    padding-top: 16px;
+    color:#595566;
+}
+.num1{
+    margin-top: 40px;
+    padding-top: 20px;
+    height: 130px;
+    border-top: 1px solid #C9C9C9;
+    border-bottom: 1px solid #C9C9C9;
+}
 
+.num_text{
+   margin-left: 60px;
+}
+.num2{
+    padding-top: 20px;
+    height: 130px;
+    border-bottom:1px solid  #C9C9C9;
+}
+.num3{
+    padding-top: 20px;
+}
+.setup img{
+    float :left;
+ }
+ .growing p{
+    margin-top: 17px;
+    text-align: left;
+    color: #595566;
+ }
+ .growing_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-items: center;
+    margin-top: 10px;
+ }
+ .grd_box{
+    height: 222px;
+    width: 280px;
+    background-color: #EBEBEB ;
+    border-radius: 20px;
+    padding: 33px 0 0 23px;
+ }
