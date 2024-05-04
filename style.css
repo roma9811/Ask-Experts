@@ -165,7 +165,6 @@ input[type="text"]{
 /*main_start*/
 .main{
     height: 1100px;
-    width: auto;
     background-color: #F5F5F5;
 }
 .main_grid{
@@ -302,11 +301,11 @@ input[type="text"]{
     background-color: #EBEBEB ;
     border-radius: 20px;
     padding: 33px 0 0 23px;
- }
- .main3{
+ } 
+   .main3{
     height: 1350px;
  }
- .grd_image{
+  .grd_image{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,7 +380,7 @@ input[type="text"]{
 .customers span{
     font-size: 35px;
     font-weight: bold;
-}
+}  */
 .main4{
     height: 1200px;
 }
@@ -668,7 +667,7 @@ input[type="text"]{
   }
   /* header end */
   /* footer start */
-  .main_footer{
+   .main_footer{
     background-image: url(./images/Background.png);
     background-size: cover;
     height: 500px;
@@ -721,4 +720,4 @@ input[type="text"]{
     color: #fff;
     border-top: 1px solid #727272;
 } 
-/* footer end */
+/* footer end  */
